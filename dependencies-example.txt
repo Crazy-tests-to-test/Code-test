@@ -1,0 +1,17 @@
+# Dependencies file example
+# Format: url|version|products|comment
+#
+# version formats:
+#   - "1.2.3" - exact version
+#   - "from:1.2.3" - minimum version
+#   - "branch:main" - specific branch
+#
+# products: comma-separated list of products to include from the package
+
+# Examples
+https://github.com/airbnb/lottie-spm.git|from:4.5.1|Lottie|Animation framework
+https://github.com/SDWebImage/SDWebImage.git|5.15.8|SDWebImage,SDWebImageMapKit|Image loading and caching
+https://github.com/ReactiveX/RxSwift.git|from:6.5.0|RxSwift,RxCocoa|Reactive programming
+https://github.com/Alamofire/Alamofire.git|from:5.7.1|Alamofire|Networking library
+https://github.com/realm/realm-swift.git|from:10.41.0|RealmSwift|Database framework
+https://github.com/onevcat/Kingfisher.git|branch:master|Kingfisher|Image downloading and caching

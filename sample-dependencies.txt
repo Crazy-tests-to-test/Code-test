@@ -1,0 +1,10 @@
+# Sample dependency file
+# Format: url|version|products|comment
+# version can be: "x.y.z" for specific version, "from:x.y.z" for minimum version, or "branch:name" for branch
+# products is comma-separated list of products to include
+
+https://github.com/example/coolframework|from:1.2.3|CoolFramework,CoolFrameworkUI|Cool UI framework
+https://github.com/test/testpkg|2.0.0|TestPkg|Testing framework
+https://github.com/branch/example|branch:main|BranchExample|Example using branch
+
+# Let's examine the structure of an entry in Package.swift
